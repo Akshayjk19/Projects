@@ -1,0 +1,118 @@
+.teammembers-main{
+    display: flex;
+    height: 100vh;
+}
+.teammeber-table-div{
+    display: block;
+    width: 100%;
+}
+
+
+.teammeber-table{
+    width: 62%;
+    height: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid;
+    /* border-radius: 5px; */
+}
+.team-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.team-head{
+    font-size: 20px;
+    font-weight: 800;
+}
+.team-text-div{
+   
+    display: flex;
+    flex-direction: row;
+}
+.team-card-title{
+    font-size: 12px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: row;
+}
+.team-card-text{
+    font-size: 12px;
+    font-weight: 300;
+}
+/* .paginationBttns{
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+}
+.paginationBttns{
+    width: 80%;
+    height: 40px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 10px;
+}
+.paginationBttns a{
+    padding: 10px;
+    color: blueviolet;
+    /* margin: 10px; */
+    /* border-radius: 2px;
+    border: 1px solid black;
+    text-decoration: none;
+} */
+/* .paginationBttns a:hover{
+    color: brown;
+    background-color: yellow;
+}
+.paginationActive a{
+    color: brown;
+    background-color: yellow;
+} 
+.btn-icon{
+    margin:11px;
+    cursor:pointer;
+    color:blue;
+} */
+@media only screen and (max-width:1300px)
+{
+    .teammember-table{
+        width: 62%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .teammember-table tr,th,td{
+       border: 1px solid red;
+       padding: -3rem;
+    }
+    /* .btn-icon{
+        display: flex;
+        flex-direction: row;
+    } */
+}
+@media only screen and (max-width:720px)
+{
+    
+    .teammember-table{
+        height: auto;
+        width: auto;
+        display: block;
+        padding: 0;
+     
+    }
+    
+    /* .btn-icon{
+        margin: 2px;
+        display: flex;
+       
+    } */
+}
+    
+
+
+/* .btn{
+    margin-left: 1rem;
+} */

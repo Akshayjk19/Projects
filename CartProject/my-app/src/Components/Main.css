@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Patua+One&family=Rowdies:wght@300&family=Teko&display=swap');
+
+.main-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20rem;
+    background-color: black;
+    color: white;
+    background-image: url('https://wallpapers.com/images/hd/high-resolution-galaxy-background-2880-x-1800-fm7w8tmft4aevuge.jpg');
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    
+}
+.card-box{
+    display: flex;
+   border: 1px solid rgb(130, 130, 130);
+    height: 15rem;
+    width: 45rem;
+}
+.main-card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* .cart-card-div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+    margin-inline: 2rem;  
+}
+.card-items-title{
+    font-size: 2rem;
+    font-family: 'Anton', sans-serif;
+}
+.card-items-description{
+    font-family: 'Teko', sans-serif;
+    font-size: 17px;
+}
+.carousel-image{
+    height: 20rem;
+}
+.map-carousel-image{
+height: 10rem;
+} */

@@ -1,0 +1,18 @@
+.mycart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+}
+.mycart-table{
+    width: 50%;
+    text-align: center;
+}
+.mycart th,tr{
+    border: 1px solid black;
+    
+}
+.mycart-image{
+    width: 100%;
+}

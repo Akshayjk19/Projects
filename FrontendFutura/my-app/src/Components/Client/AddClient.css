@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Ubuntu:ital,wght@1,500&display=swap');
+ .client-form{
+    background-color: bisque;
+    padding: 2rem;
+ }
+ .client-input-group{
+    padding: 1rem;
+ }
+ .client-input{
+    border-radius: 4px;
+    height: 37px;
+ }
+ .client-select{
+    display: block;
+ }

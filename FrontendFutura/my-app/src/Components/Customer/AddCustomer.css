@@ -1,0 +1,30 @@
+.customer-form{
+    display: block;
+    width: min-content;
+    background-color: bisque;
+    padding: 2rem;
+}
+.txt{
+    font-size: 23px;
+    font-weight: 800;
+    font-family: fantasy;
+    letter-spacing: 3px;
+
+}
+.customer-inputs{
+    border-radius: 4px;
+    margin-top: 2rem;
+    height: 37px;
+}
+.customer-input-address{
+    border-radius: 4px;
+    margin-top: 2rem;
+    height: auto;
+}
+.customer-dropdown{
+    margin-top: 2rem;
+}
+.btn{
+    color: white;
+    margin-top: 2rem;
+}

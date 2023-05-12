@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&family=Noto+Sans+Miao&family=Righteous&family=Vina+Sans&family=Patua+One&family=Rowdies:wght@300&display=swap');
+/* .cart-main{
+    display: flex;
+    flex-direction: row;
+} */
+.cart-main-div{
+    display: flex;
+    justify-content: center;
+}
+.cart-card-main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.cart-card{
+    display: flex;
+    justify-content: space-between;
+    width: 50rem;
+    /* border: 0.1rem solid black; */
+    margin-top: 2rem;
+    margin-left: 5rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    background-color: #ffffff;
+    box-shadow: 3px 3px rgb(65, 63, 63);
+}
+.cart-header{
+    display: flex;
+    height: 2rem;
+    margin-top: 1rem;
+    margin-left: 6rem;
+    font-family: 'Rowdies', cursive;
+}
+.cart-data{
+    display: flex;
+    flex-direction: column;
+}
+.cart-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #505454;
+    color: white;
+    border: none;
+    font-family: 'Patua One';
+    height: 2rem;
+    border-radius: 1rem;
+}
+.cart-content{
+    font-family: 'Righteous', cursive;
+    font-size: 2rem;
+    margin-inline: 1rem;
+}
+.cart-text-head{
+    font-family: 'Patua One', cursive;
+    margin-left: 1rem;
+    /* color: greenyellow; */
+}
+.cart-text-price{
+    color: greenyellow;
+    margin-left: 0.3rem;
+}
+.cart-text-price:hover{
+    color: rgb(41, 106, 246);
+}
+.cart-inc-dec-btn{
+  
+    border: none;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: azure;
+    margin-inline: 1rem;
+}
+.cart-count-text{
+    font-weight: 700;
+    font-family: 'Righteous';
+    font-size: 20px;
+
+}
+.cart-payment{
+    display: flex;
+    margin-inline: 11rem;
+    margin-block: 4rem;
+    justify-content: end;
+}
+.cart-payment-header{
+    font-family: 'Rowdies', cursive;
+}
+.cart-text-Para{
+    margin-block: 1rem;
+    font-weight: 600;
+}
+.cart-text-total{
+    color: greenyellow;
+    font-family: 'Righteous';
+    font-weight: 600;
+}
