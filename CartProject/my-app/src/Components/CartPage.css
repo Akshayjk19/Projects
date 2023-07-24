@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Patua+One&family=Rowdies:wght@300&family=Teko&display=swap');
+
+.cart-card-div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+    margin-inline: 2rem;  
+}
+.card-items-title{
+    font-size: 2rem;
+    font-family: 'Anton', sans-serif;
+}
+.card-items-description{
+    font-family: 'Teko', sans-serif;
+    font-size: 17px;
+}
+.carousel-image{
+    height: 20rem;
+}
+.map-carousel-image{
+height: 10rem;
+}

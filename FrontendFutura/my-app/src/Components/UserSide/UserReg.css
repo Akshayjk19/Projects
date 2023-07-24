@@ -1,0 +1,14 @@
+.user-sign-up-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+.user-sign-up{
+    width: 320px;
+    background-color: rgb(243, 164, 52);
+    padding: 30px;
+    text-align: center;
+    border-radius: 11px;
+
+}

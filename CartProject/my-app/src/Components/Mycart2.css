@@ -1,0 +1,36 @@
+.mycart {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .mycart-table {
+    width: 100%;
+  }
+  
+  .mycart-image {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .mycart-table {
+      font-size: 14px;
+    }
+  
+    .mycart-image {
+      max-width: 80px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    /* Adjust styles for even smaller screens */
+    .mycart-table {
+      font-size: 12px;
+    }
+  
+    .mycart-image {
+      max-width: 60px;
+    }
+  }
+  

@@ -1,0 +1,104 @@
+.info{
+    padding: 4rem 0 2rem;
+    background-color: rgb(244, 243, 243);
+}
+
+.info-container{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.info-title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+    justify-content: space-between;
+}
+
+.info-button{
+    padding: .7rem 1.5rem;
+    background-color: rgb(29, 138, 234);
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    color: white;
+}
+
+.card-div{
+    display: grid;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
+
+.single-card{
+    display: grid;
+    align-items: center;
+    background-color: white;
+    padding: 3rem 2rem;
+    border-radius: 10rem;
+    gap: 1rem;
+    text-align: center;
+    margin: auto;
+    height: 320px;
+    width: 90%;
+    max-width: 250px;
+}
+
+.info-icon-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: rgb(107, 168, 241);
+    width: max-content;
+    height: 55px;
+    padding: 1rem;
+    border-radius: 3rem;
+}
+.info-icon{
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+}
+
+.card-title{
+    color: black;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 570px){
+    .info-title{
+        flex-direction: row;
+    } 
+    .info-title h2{
+        text-align: left;
+        max-width: 500px;
+    }
+    .card-div{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (min-width: 768px){
+    .info-container{
+        padding: 0 6rem;
+    }
+    .info-title{
+        width: 90%;
+        margin: auto;
+        align-items: center;
+    }
+    .card-div{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .single-card{
+        max-width: 260px;
+        padding: 2rem;
+    }
+}

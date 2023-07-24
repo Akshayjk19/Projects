@@ -1,0 +1,63 @@
+.subscribe{
+    padding: 4rem 0 2rem;
+    background-color: rgb(226, 226, 226);
+}
+
+.subscribe-container{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    text-align: center;
+}
+
+.subscribe-input-div{
+    display: flex;
+    align-items: center;
+   margin-top: 1rem;
+   flex-direction: column;
+   background-color: white;
+   border-radius: 1rem;
+}
+
+.subscribe-input-div input{
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 1rem .5rem;
+}
+
+.subscribe-input-div input::placeholder{
+    font-size: 13px;
+    opacity: .5;
+}
+
+.sub-button{
+    padding: .7rem 1.5rem;
+    background-color: rgb(41, 105, 224);
+    border: none;
+    outline: none;
+    border-radius: 2.1rem;
+    cursor: pointer;
+    color: white;
+    width: 100%;
+}
+
+@media screen and (min-width: 480px)
+{
+    .subscribe-container{
+        max-width: 80%;
+        margin: auto;
+    }
+    .subscribe-input-div{
+        flex-direction: row;
+        padding: 0 .5rem;
+    }
+}
+
+@media screen and (min-width: 570px){
+    .subscribe-input-div{
+        justify-content: space-between;
+    }
+    .sub-button{
+        max-width: max-content;
+    }
+}

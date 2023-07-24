@@ -1,0 +1,109 @@
+.book-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.book-page-main-div{
+    display: block;
+    width: 100%;
+}
+.book-input-div{
+    text-align: center;
+    margin-top: 3rem;
+}
+.search-input{
+    width: 27%;
+    text-align: center;
+    height: 2rem;
+    border-radius: 2rem;
+}
+
+.book-table{
+    width: 100%;
+    height: 30rem;
+    text-align: center;
+   margin-inline: 1rem;
+    border: 2px solid;
+    /* border-radius: 5px; */
+}
+/* .book-table table,tr,th,td{
+    border: 2px solid black;
+} */
+.paginationBttns{
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+}
+.paginationBttns{
+    width: 80%;
+    height: 40px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 10px;
+}
+.paginationBttns a{
+    padding: 10px;
+    color: blueviolet;
+    /* margin: 10px; */
+    border-radius: 2px;
+    border: 1px solid black;
+    text-decoration: none;
+}
+.paginationBttns a:hover{
+    color: brown;
+    background-color: yellow;
+}
+.paginationActive a{
+    color: brown;
+    background-color: yellow;
+}
+.btn-icon{
+    margin:11px;
+    cursor:pointer;
+    color:blue;
+}
+@media only screen and (max-width:1300px)
+{
+    .book-table{
+        width: 62%;
+        height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .book-table tr,th,td{
+       border: 1px solid red;
+       padding: -3rem;
+    }
+    .btn-icon{
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media only screen and (max-width:720px)
+{
+    
+    .book-table{
+        width: 62%;
+        display: block;
+        padding: 0;
+     
+    }
+    .book-input-div{
+        margin-top: 0;
+
+    }
+    .btn-icon{
+        margin: 2px;
+        display: flex;
+        
+       
+    }
+}
+    
+
+
+/* .btn{
+    margin-left: 1rem;
+} */

@@ -1,0 +1,58 @@
+.lounge{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1.5rem;
+  
+}
+
+.lounge-section{
+    display: grid;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.lounge-img-div{
+margin: auto;
+margin-top: 1rem;
+}
+
+.lounge-img{
+    width: 100%;
+    height: auto;
+    border-radius: 5rem;
+    max-width: 430px;
+}
+
+/* .lounge-text-div{
+
+} */
+
+.grids{
+    display: grid;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 1.5rem;
+}
+
+.grid-title{
+display: block;
+padding-bottom: .5rem;
+font-weight: 500;
+color: black;
+}
+
+@media screen and (min-width: 570px){
+    .grids{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (min-width: 768px){
+    .lounge-section{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .lounge-text-div{
+        grid-area: 1;
+    }
+}

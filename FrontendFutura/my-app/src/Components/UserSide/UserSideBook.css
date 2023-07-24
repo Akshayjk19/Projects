@@ -1,0 +1,45 @@
+.user-main-div{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+  gap: 1rem;
+}
+
+.navbar-link{
+    margin-left: 1rem;
+}
+.user-card{
+    height: 17rem;
+    text-align: center;
+    width: 15rem;
+    margin: 1rem;
+    
+}
+.user-card-button{
+    color: white;
+    margin-top: 2rem;
+    background-color: black;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    width: 100px;
+}
+.user-card-button:hover{
+    background-color: rgb(35, 117, 234);
+}
+@media screen and (max-width: 1405px) {
+    .user-main-div {
+        grid-template-columns: repeat(3, 1fr);
+      }
+}
+
+@media screen and (max-width: 792px) {
+    .user-main-div {
+      grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+ @media screen and (max-width: 576px) {
+    .user-main-div {
+      grid-template-columns: 1fr;
+    }
+}
